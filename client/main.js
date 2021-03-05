@@ -4,5 +4,5 @@ import { render } from 'react-dom';
 import { App } from '/imports/ui/App';
 
 Meteor.startup(() => {
-  render(<App/>, document.getElementById('root'));
+  render(<App />, document.getElementById('root'));
 });

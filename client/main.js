@@ -1,8 +1,8 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { render } from 'react-dom';
-import { App } from '/imports/ui/App';
+import { AppContainer } from '../imports/ui/AppContainer';
 
 Meteor.startup(() => {
-  render(<App />, document.getElementById('root'));
+  render(<AppContainer />, document.getElementById('root'));
 });

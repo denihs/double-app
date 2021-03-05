@@ -26,10 +26,6 @@ const useStyles = makeStyles({
   },
 });
 
-if (isAPIModule()) {
-  return <div>This is the API</div>;
-}
-
 export const App = () => {
   const classes = useStyles();
 

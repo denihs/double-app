@@ -1,0 +1,1 @@
+DEPLOY_HOSTNAME=us-east-1.galaxy-deploy.meteor.com meteor deploy api.double-app.meteorapp.com --settings api-settings.json

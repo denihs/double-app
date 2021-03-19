@@ -2,7 +2,7 @@
   "name": "double-app",
   "private": true,
   "scripts": {
-    "start": "MONGO_URL=mongodb://localhost:27017/double-app meteor --settings private/env/prod/settings.json -p 4000",
+    "start": "METEOR_POLLING_INTERVAL_MS=5500 MONGO_URL=mongodb://localhost:27017/double-app meteor --settings private/env/prod/settings.json -p 4000",
     "start-api": "MONGO_URL=mongodb://localhost:27017/double-app meteor --settings private/env/prod/api-settings.json -p 5000",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",

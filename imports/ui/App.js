@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { useTracker } from 'meteor/react-meteor-data';
 import { PositionsCollection } from '../api/PositionsCollection';
-import { isAPIModule } from '../api/apiModuleCommon';
 
 const block = {
   width: 100,

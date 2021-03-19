@@ -1,6 +1,6 @@
 {
   "public": {
-    "environment": "DEV",
+    "environment": "PRODUCTION",
     "isAPIModule": true
   }
 }

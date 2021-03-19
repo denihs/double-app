@@ -9,7 +9,7 @@ With some simple changes you could have an app that handles the Client side, ano
 
 The cool part is that you use the same code, database, and integrations without having too much work.
 
-## What these apps does
+## What these apps do
 
 The idea behind these apps is pretty simple. I have two apps, [double-app](https://double-app.meteorapp.com/) and [api.double-app](https://api.double-app.meteorapp.com/). 
 The first app is my UI where anyone who is connect to it can se the astronaut moving around from time to time by reading its coordinates from the database. 

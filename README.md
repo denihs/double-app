@@ -38,7 +38,6 @@ And here is the code inside of each one:
 
 - api-settings.json
 ``` json
-settings.json
 
 {
   "public": {
